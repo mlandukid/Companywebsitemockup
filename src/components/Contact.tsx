@@ -57,8 +57,8 @@ export function Contact() {
                 </div>
                 <div>
                   <div className="text-sm text-slate-500 mb-1">Call Us</div>
-                  <a href="tel:0760202710" className="text-slate-900 hover:text-yellow-600 transition-colors">
-                    076 020 2710
+                  <a href="tel:0790506594" className="text-slate-900 hover:text-yellow-600 transition-colors">
+                    079 050 6594
                   </a>
                   <br />
                   <a href="tel:0712865406" className="text-slate-900 hover:text-yellow-600 transition-colors">
