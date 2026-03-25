@@ -81,11 +81,11 @@ export function Navigation() {
             {/* Contact Info & CTA - Desktop */}
             <div className="hidden lg:flex items-center gap-4">
               <a
-                href="tel:0790506594"
+                href="tel:0714117521"
                 className="flex items-center gap-2 text-white hover:text-yellow-500 transition-colors text-sm"
               >
                 <Phone className="w-4 h-4" />
-                <span>079 050 6594</span>
+                <span>071 411 7521</span>
               </a>
               <Button
                 onClick={() => scrollToSection("#contact")}
@@ -141,11 +141,11 @@ export function Navigation() {
             {/* Mobile Contact Info */}
             <div className="space-y-3 pt-6 border-t border-white/20">
               <a
-                href="tel:0790506594"
+                href="tel:0714117521"
                 className="flex items-center gap-3 text-white hover:text-yellow-500 transition-colors px-4 py-2"
               >
                 <Phone className="w-5 h-5" />
-                <span>079 050 6594</span>
+                <span>071 411 7521</span>
               </a>
               <a
                 href="mailto:Umceboconsultant@gmail.com"

@@ -28,14 +28,14 @@ const services = [
   },
   {
     icon: FileCheck,
-    title: "Regulatory Compliance Consultation",
-    description: "Navigate complex regulatory landscapes with confidence. We ensure your business stays compliant with all relevant laws and regulations.",
+    title: "Regulation and Legislation",
+    description: "Navigate complex regulatory landscapes with confidence. We ensure your business stays compliant with all relevant legislation.",
     color: "from-purple-500 to-purple-600"
   },
   {
     icon: GraduationCap,
     title: "Education & Training Consultation",
-    description: "Empower your team with comprehensive training programs on compliance, regulatory requirements, and industry best practices.",
+    description: "Empower your team with comprehensive training programs on compliance, regulatory requirements, and best practices.",
     color: "from-pink-500 to-pink-600"
   },
   {

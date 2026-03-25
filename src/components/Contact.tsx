@@ -57,8 +57,8 @@ export function Contact() {
                 </div>
                 <div>
                   <div className="text-sm text-slate-500 mb-1">Call Us</div>
-                  <a href="tel:0790506594" className="text-slate-900 hover:text-yellow-600 transition-colors">
-                    079 050 6594
+                  <a href="tel:0714117521" className="text-slate-900 hover:text-yellow-600 transition-colors">
+                    071 411 7521
                   </a>
                   <br />
                   <a href="tel:0712865406" className="text-slate-900 hover:text-yellow-600 transition-colors">
@@ -202,6 +202,51 @@ export function Contact() {
                 <Send className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </Button>
             </form>
+          </div>
+        </div>
+
+        {/* Full-Width Dark Map */}
+        <div className="mt-16 max-w-6xl mx-auto">
+          <div className="flex items-center gap-3 mb-6">
+            <div className="bg-yellow-600 p-2 rounded-lg">
+              <MapPin className="w-5 h-5 text-white" />
+            </div>
+            <h3 className="text-2xl text-slate-900">Our Location</h3>
+            <div className="flex-1 h-px bg-slate-200 ml-2"></div>
+          </div>
+
+          <div className="relative rounded-2xl overflow-hidden shadow-2xl ring-1 ring-yellow-600/40"
+               style={{ boxShadow: "0 0 0 1px rgb(202 138 4 / 0.4), 0 25px 50px -12px rgb(0 0 0 / 0.4)" }}>
+            {/* Dark overlay gradient at bottom for address card */}
+            <div className="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-slate-900/90 to-transparent z-10 pointer-events-none" />
+
+            {/* Address card overlay */}
+            <div className="absolute bottom-5 left-5 z-20 bg-slate-900/95 backdrop-blur-sm border border-yellow-600/50 rounded-xl px-5 py-4 shadow-xl">
+              <div className="flex items-start gap-3">
+                <MapPin className="w-4 h-4 text-yellow-500 mt-0.5 shrink-0" />
+                <div>
+                  <p className="text-white text-sm font-medium leading-snug">
+                    62 van Santen Drive
+                  </p>
+                  <p className="text-slate-400 text-xs mt-0.5">Horizon View, Roodepoort, South Africa</p>
+                </div>
+              </div>
+            </div>
+
+            <iframe
+              title="Umcebo Consultants Location"
+              src="https://maps.google.com/maps?q=62+van+Santen+Drive,+Horizon+View,+Roodepoort,+South+Africa&output=embed"
+              width="100%"
+              height="480"
+              style={{
+                border: 0,
+                display: "block",
+                filter: "grayscale(20%) contrast(1.05) brightness(0.92)"
+              }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            />
           </div>
         </div>
       </div>

@@ -17,7 +17,7 @@ export function WhatsAppButton() {
 
   const handleWhatsAppClick = () => {
     // Replace with your actual WhatsApp number (format: country code + number, no spaces or special chars)
-    const phoneNumber = "27790506594"; // South Africa country code (27) + 0790506594
+    const phoneNumber = "27714117521"; // South Africa country code (27) + 0714117521
     const message = encodeURIComponent(
       "Hi Umcebo Consultants, I'm interested in learning more about your compliance services."
     );

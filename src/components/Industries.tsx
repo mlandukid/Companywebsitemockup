@@ -1,44 +1,28 @@
-import { 
-  Factory, 
-  Building2, 
-  ShoppingBag, 
-  HardHat, 
-  Truck, 
-  Hotel, 
+import {
+  Factory,
+  Building2,
+  HardHat,
+  Utensils,
+  Hotel,
   GraduationCap,
-  Mountain
+  Heart
 } from "lucide-react";
 
 const industries = [
   {
     icon: Factory,
-    name: "Generic Industry",
+    name: "Generic",
     description: "Comprehensive compliance solutions for general industrial operations"
-  },
-  {
-    icon: Mountain,
-    name: "Extractive Industries",
-    description: "Specialized services for mining and resource extraction sectors"
   },
   {
     icon: Building2,
     name: "Manufacturing Industries",
-    description: "Quality and regulatory compliance for manufacturing operations"
-  },
-  {
-    icon: ShoppingBag,
-    name: "Retail Industries",
-    description: "Consumer protection and retail compliance guidance"
+    description: "Quality and regulatory compliance for manufacturing operations, including assistance with health and safety standards and legislation"
   },
   {
     icon: HardHat,
     name: "Construction Industries",
-    description: "Safety standards and construction regulatory compliance"
-  },
-  {
-    icon: Truck,
-    name: "Transportation Industries",
-    description: "Transport regulations and logistics compliance solutions"
+    description: "Safety standards and construction regulatory compliance. Assistance with adherence to health and safety compliance by referrals to the relevant authorities"
   },
   {
     icon: Hotel,
@@ -47,8 +31,18 @@ const industries = [
   },
   {
     icon: GraduationCap,
-    name: "Educational Services",
-    description: "Compliance and certification for educational institutions"
+    name: "Educational Facilities",
+    description: "Compliance and certification for educational institutions, assisting early childhood centres to obtain the necessary certifications through compliance"
+  },
+  {
+    icon: Utensils,
+    name: "Food Handling Facilities",
+    description: "Assisting with health education of food handlers and assist with obtaining relevant certification"
+  },
+  {
+    icon: Heart,
+    name: "Facilities Dealing with Human Remains",
+    description: "Assisting businesses in obtaining the relevant certification"
   }
 ];
 

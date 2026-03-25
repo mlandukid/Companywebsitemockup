@@ -21,15 +21,11 @@ export function Footer() {
           <div>
             <h4 className="mb-4">Quick Links</h4>
             <ul className="space-y-2 text-slate-400 text-sm">
-              <li>
-                <a href="#" className="hover:text-yellow-500 transition-colors">Home</a>
-              </li>
-              <li>
-                <a href="#services" className="hover:text-yellow-500 transition-colors">Services</a>
-              </li>
-              <li>
-                <a href="#contact" className="hover:text-yellow-500 transition-colors">Contact</a>
-              </li>
+              <li><a href="#home" className="hover:text-yellow-500 transition-colors">Home</a></li>
+              <li><a href="#about" className="hover:text-yellow-500 transition-colors">About</a></li>
+              <li><a href="#services" className="hover:text-yellow-500 transition-colors">Services</a></li>
+              <li><a href="#industries" className="hover:text-yellow-500 transition-colors">Industries</a></li>
+              <li><a href="#contact" className="hover:text-yellow-500 transition-colors">Contact</a></li>
             </ul>
           </div>
 
@@ -40,7 +36,7 @@ export function Footer() {
               <li>Environmental Compliance</li>
               <li>Certification Consultation</li>
               <li>Financial Consultation</li>
-              <li>Regulatory Compliance</li>
+              <li>Regulation and Legislation</li>
               <li>Training & Education</li>
             </ul>
           </div>

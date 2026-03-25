@@ -8,8 +8,7 @@ export function About() {
           <h2 className="text-4xl mb-4 text-slate-900">About Umcebo Consultants</h2>
           <div className="w-24 h-1 bg-yellow-600 mx-auto mb-6"></div>
           <p className="text-lg text-slate-600 max-w-3xl mx-auto">
-            Founded in 2025 under the leadership of Mr. Mlandu, we deliver innovative solutions, 
-            measurable results and excellent services in ensuring compliance.
+            Founded in 2025 with Mr Mlandu being the chairperson of the company in question.
           </p>
         </div>
 
@@ -40,8 +39,8 @@ export function About() {
               <div className="flex-1">
                 <h3 className="text-2xl mb-4 text-slate-900">Our Vision</h3>
                 <p className="text-slate-600 leading-relaxed">
-                  "To be the leading compliance partner nationally recognised for transforming 
-                  regulatory challenges into opportunities for excellence and growth"
+                  "To be the leading compliance partner nationally recognised for transforming
+                  regulatory challenges into opportunities for excellence and growth for emerging and established companies"
                 </p>
               </div>
             </div>

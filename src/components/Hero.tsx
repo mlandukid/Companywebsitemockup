@@ -33,7 +33,7 @@ export function Hero() {
             
             <div className="space-y-4">
               <h1 className="text-3xl md:text-4xl lg:text-5xl italic">
-                Paragons of Virtue Begins with Compliance
+                Paragons of Virtue Embody Compliance
               </h1>
               <p className="text-lg text-slate-300 max-w-xl">
                 A 100% black-owned professional consultation company delivering innovative solutions, 
@@ -61,7 +61,7 @@ export function Hero() {
             {/* Stats */}
             <div className="grid grid-cols-3 gap-6 pt-8 border-t border-slate-700">
               <AnimatedStat end={100} suffix="%" label="Black Owned" />
-              <AnimatedStat end={8} suffix="+" label="Industries Served" />
+              <AnimatedStat end={7} suffix="+" label="Industries Served" />
               <AnimatedStat end={2025} label="Est. Founded" />
             </div>
           </div>
